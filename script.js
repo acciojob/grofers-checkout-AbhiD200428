@@ -8,7 +8,7 @@ const getSum = () => {
 
     prices.forEach(el => {
         const text = el.textContent.trim();
-        const num = parseFloat(text) || 0;   // NaN → 0
+        const num = parseFloat(text) || 0;
         total += num;
     });
 
