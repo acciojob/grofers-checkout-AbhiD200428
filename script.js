@@ -14,7 +14,8 @@ const priceElements = document.querySelectorAll(".price");
   const newRow = document.createElement("tr");
   const newCell = document.createElement("td");
 
-  newCell.colSpan = "2"; 
+  newCell.colSpan = "2";
+  newCell.id = "ans";
   newCell.textContent = total;
 
   newRow.appendChild(newCell);
